@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d14a4a;
+    
+    font-family: 'Bellota Text', cursive;
+    text-align: center;
+    color: #FFF;
+}
+.title {
+    margin: 30px 0 20px 0;
+    font-size: 50px;
+    text-shadow: 0 0 13px #FFF;
+}
+.description {
+    margin: 30px 0 20px 0;
+}
+.options {
+    display: flex;
+    justify-content: center;
+}
+.color-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.options button{
+    padding: 10px;
+    margin: 5px;
+    color: #FFF;
+    font-weight: 400;
+    background-color: transparent;
+    border: 3px solid #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 13px #FFF;
+}
+
+.grid {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border: 2px solid #333;
+  }
+  
+  .grid-element {
+    border: 1px solid #333;
+    background-color: #fff;
+  }
+  
+  @media (max-width: 450px) {
+    header {
+      font-size: 2.4rem;
+    }
+  
+    .grid {
+      max-width: 300px;
+      min-height: 300px;
+    }
+  }
